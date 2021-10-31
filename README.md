@@ -31,7 +31,7 @@ Bu prensip, bileşenler arasındaki bağımlılıklarla ilgilidir ve bu prensibe
 
 Basit bir deyişle, yazılımın bileşenleri arasında sıkı bir bağlantı olmaması gerektiğini ve bundan kaçınmak için bileşenlerin soyutlamaya bağlı olması gerektiğini söylemektedir.
 
-## [DRY-Don't Repeat Yourself]
+## [DRY-Don't Repeat Yourself](https://github.com/ezgiyaman/SoftwarePrinciples/tree/master/DRY_Principle)
 Yazılım kalıplarının tekrarlanmasını ve buna bağlı olarak ortaya çıkabilecek fazlalıkların karmaşıklığın önlenmesini amaçlayan yazılım geliştirme ilkesidir. Dry Prensibi ; Her bilginin bir sistem içinde tek ve kesin yetkili bir temsili ile var olması gerektiğini vurgulamaktadır. Bu prensibe göre kodu tek bir yerde yazıp onu diğer yerlerde kullanılabilir hale getirmek gerekmektedir.
 Eğer daha önce yazılmış bir kod ya da kod bloğunu tekrar kullanmaya ihtiyacımız olursa; mevcut kodu bir fonksiyona,sınıfa,metoda dönüştürerek eski kullanılan yeri bu noktaya bağlayıp, sonrasında yeni yazacağımız kodlarda da bu merkezileştirdiğimiz nokta üzerinden kullanmamız gerekmektedir.
 
