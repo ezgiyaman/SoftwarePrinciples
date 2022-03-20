@@ -36,9 +36,4 @@ Yazılım kalıplarının tekrarlanmasını ve buna bağlı olarak ortaya çıka
 * Dry Prensibi ; Her bilginin bir sistem içinde tek ve kesin yetkili bir temsili ile var olması gerektiğini vurgulamaktadır. Bu prensibe göre kodu tek bir yerde yazıp onu diğer yerlerde kullanılabilir hale getirmek gerekmektedir.
 Eğer daha önce yazılmış bir kod ya da kod bloğunu tekrar kullanmaya ihtiyacımız olursa; mevcut kodu bir fonksiyona,sınıfa,metoda dönüştürerek eski kullanılan yeri bu noktaya bağlayıp, sonrasında yeni yazacağımız kodlarda da bu merkezileştirdiğimiz nokta üzerinden kullanmamız gerekmektedir.
 
-# [SoC-SEPARATİON OF CONCERNS]
-
-Bu prensip düşük bağlılığa ve benzer sorumluluklara sahip bileşenler ile kümeler,kapsüller oluşturmamıza, sorumluluk sınırlarının net bir şekilde belirlenerek ayrılmasına odaklanmaktadır.Farklı görevlere ait birimleri bir yere yığmaktansa, farklı yerlerde tanımlamak gerektiğini öneren bir prensiptir.
-
-SoC genel olarak; uygulamamızda geliştireceğimiz her yeni modül ya da varolan modül geliştirmelerinde, diğer yapıları bozmadan veya etkilemeden geliştirme yapabilmemizi sağlamaktadır. Yani kusursuz uygulanan bir SoC ile sadece geliştirme yapılacağımız işe odaklanılabilmekteyiz.
 
